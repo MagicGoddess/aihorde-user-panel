@@ -1,4 +1,4 @@
-# aihorde-user-panel
+# AI Horde User Panel
 
 AI Horde User Panel is a vibecoded web app for viewing your AI Horde account and managing shared API keys. The entire app runs in your web browser with no server side required.
 
