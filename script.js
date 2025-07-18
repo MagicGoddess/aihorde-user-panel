@@ -173,6 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
             .then(function (data) {
                 document.getElementById('username').textContent = data.username || '';
+                document.getElementById('kudos-total').textContent = data.kudos != null ? data.kudos : '';
                 if (data.kudos_details) {
                     document.getElementById('kudos-accumulated').textContent = data.kudos_details.accumulated;
                     document.getElementById('kudos-gifted').textContent = data.kudos_details.gifted;
